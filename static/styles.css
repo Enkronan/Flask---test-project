@@ -1,0 +1,90 @@
+ul.topnav
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top:0;
+    width: 100%;
+}
+
+ul.topnav li  
+{
+    display: inline;
+    float: left;
+}
+
+ul.topnav li a
+{
+    display:block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover
+{
+    background-color: #111;
+}
+
+.image
+{
+    margin-top: 50px;
+    position: relative;
+    text-align: center;
+}
+
+#nature
+{
+    width: 100%;
+}
+
+.centered
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    
+}
+
+.form-group
+{
+    width: 50%;
+}
+
+.youtube
+{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#start
+{
+    margin-top:10px;
+}
+
+#below-start
+{
+    text-align: center;
+}
+
+#start-1
+{
+    margin-top:150px;
+}
+
+#boot1
+{
+    color:purple;
+    font-size: 50px;
+}
+
+#pic1
+{
+    margin-right: 20px;
+}

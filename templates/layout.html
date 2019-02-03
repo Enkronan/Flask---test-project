@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>
+            Hello!
+        </title>
+        <link rel="stylesheet" href="/static/styles.css">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <nav>
+            <ul class="topnav">
+                    <li><a href="{{ url_for('index') }}">Home</a></li>
+                    <li><a href="{{ url_for('second') }}">Second</a></li>
+                    <li><a href="{{ url_for('third') }}">Third</a></li>
+                    <li><a href="{{ url_for('fourth') }}">Fourth</a></li>
+            </ul>
+        </nav>
+
+        {% block body %}
+        {% endblock %}
+        
+        <footer>
+            
+        </footer>
+
+    </body>
+
+</html>

@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+
+{% block body %}
+        <main>
+            <div class="image">
+                <img id="nature" src="/static/nature.jpg" alt="nature">
+                <div class ="centered">
+                    <h1>Carbonice Now!</h1>
+                </div>
+            </div>        
+            
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <h1>{{ firstname }}</h1>
+                    </div>
+                    <div class="col-6">
+                        <h1>{{ lastname }}</h1>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+{% endblock %}
+
